@@ -14,7 +14,7 @@
 
     <!-- 自安装使用 -->
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
-
+    <uses-permission android:name="android.permission.CAMERA" />
     <!-- Google Maps -->
     <meta-data
         android:name="com.google.android.geo.API_KEY"
@@ -98,5 +98,10 @@
             android:screenOrientation="landscape"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:exported="false"/>
+
+        <activity
+            android:name="dji.sampleV5.aircraft.OpenCameraActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:exported="true" />
     </application>
 </manifest>

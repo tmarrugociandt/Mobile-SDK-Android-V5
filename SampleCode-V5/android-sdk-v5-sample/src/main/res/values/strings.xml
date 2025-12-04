@@ -494,4 +494,6 @@ More refer to the release notes." </string>
     <string name="item_app_silently_upgrade_description">Demonstrate APP Silently Upgrade functions</string>
     <string name="btn_silently_upgrade_package">Set Silently Upgrade Package</string>
     <string name="btn_install_test_app">Install Test App</string>
+
+    <string name="camera_viewmodel_initialized">Camera ViewModel initialized</string>
 </resources>

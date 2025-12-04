@@ -177,6 +177,15 @@
                     android:padding="8dp"
                     android:text="@string/testing_tools"
                     android:textColor="@color/selector_enable_button" />
+
+                <Button
+                    android:id="@+id/openCameraButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Open Camera"
+                    app:layout_constraintTop_toBottomOf="@+id/view_base_info"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
             </LinearLayout>
         </ScrollView>
 

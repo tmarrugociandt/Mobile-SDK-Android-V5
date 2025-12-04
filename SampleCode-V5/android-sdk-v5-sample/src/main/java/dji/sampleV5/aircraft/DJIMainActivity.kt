@@ -185,6 +185,16 @@ abstract class DJIMainActivity : AppCompatActivity() {
     fun <T> enableTestingTools(cl: Class<T>) {
         enableShowCaseButton(binding.testingToolButton, cl)
     }
+    /**
+     * Enables a button to open the camera activity.
+     * @param cl The class of the activity to open.
+     */
+    fun <T> enableOpenCameraButton(cl: Class<T>) {
+        binding.openCameraButton.setOnClickListener {
+            val intent = Intent(this, cl)
+            startActivity(intent)
+        }
+    }
 
     private fun <T> enableShowCaseButton(view: View, cl: Class<T>) {
         view.isEnabled = true
